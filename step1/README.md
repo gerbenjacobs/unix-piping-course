@@ -38,5 +38,5 @@ echo -n "Hello World" | go run main.go
 
 - When you use `fmt.Print` (and its siblings) underwater Go uses `os.Stdout`
 - Try removing the `-n` from our `echo` command and see what effect it has
-- What happens when we run our file without input?
+- What happens when we run our script without input?
 - There's also a `ReaderWriter` interface and internally it just embeds both `Reader` and `Writer` interfaces

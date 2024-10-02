@@ -51,7 +51,7 @@ echo -n "Hello World" | go run main.go | jq
 ## Did you know..
 
 - Calling `Encode()` on our encoder doesn't return anything but a potential error, do you know why?
-- Read the json tag documentation about `omitempty` and `"-"`, play around with that and watch what happens to your JSON
 - What happens with our output JSON if we remove the entire `json:""` tags?
+- Read the json tag documentation about `omitempty` and `"-"`, play around with that and watch what happens to your JSON
 - (Optional) Oh no! You're using ancient Microsoft services and need `XML`. 
    See if you can use [encoding/xml](https://pkg.go.dev/encoding/xml) instead!

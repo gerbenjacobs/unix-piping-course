@@ -39,11 +39,11 @@ the systems are running Unix.
 Go has the ability to cross compile for other OSes and Architectures. You can run `go tool dist list` to see a list of options.
 
 Run `go tool dist banner` to see what you're running. 
-For example macOS is called `darwin`, but you might see `amd` or `arm` based on whether   
+For example macOS is called `darwin`, but you might see `amd` or `arm` based on whether 
 you have an Intel chip or the newer Apple M1 chip.
 
 _Go, as well as macOS, sometimes has the ability to translate for different architectures. 
-So sometimes it might still run on wrong architectures._
+So it might still run on wrong architectures._
 
 Building for other architectures is done using the environment variables `GOOS` and `GOARCH`.
 
