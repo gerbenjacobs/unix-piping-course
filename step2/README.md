@@ -6,13 +6,13 @@ We will use `jq` afterward to pretty print this.
 
 ## How to write to stdout
 
-We've learned to use a `Reader` in combination with `stdin`, but for writing we'll need to use a `Writer`.
+We've learned to use a `io.Reader` in combination with `stdin`, but for writing we'll need to use a `io.Writer`.
 
 Since we know we're going to use JSON we can have a look at the `encoding/json` [package](https://pkg.go.dev/encoding/json).
 
-You're probably familiar with `json.Marshal` but the package also comes with an `Encoder`,
-that needs to be initialized with a `Writer` interface.   
-We can use the `os.Stdout` file descriptor for this, cause as you remember, `*File` structs adhere to the interface.
+You're probably familiar with `json.Marshal` but the package also comes with an `json.Encoder`,
+that needs to be initialized with a `io.Writer` interface.   
+We can use the `os.Stdout` file descriptor for this, cause as you remember, `os.File` structs adhere to the interface.
 
 ## Our JSON model
 

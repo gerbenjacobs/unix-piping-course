@@ -77,7 +77,7 @@ Notice how you get `exec format error`.
 We can test our Unix version on a small Alpine docker image. It doesn't come with `jq` though.
 
 ```bash
-docker run -v $(pwd)/json_converter_unix:/usr/local/bin/json_converter:z alpine /bin/sh -c 'echo -n "Hello World" | json_converter'
+docker run --rm -v $(pwd)/json_converter_unix:/usr/local/bin/json_converter:z alpine /bin/sh -c 'echo -n "Hello World" | json_converter'
 ```
 
 We are mounting (`-v`) our binary to the `/usr/local/bin` directory and use `sh` for our pipe example.  
