@@ -4,8 +4,8 @@ This course will show you how to make a Go binary that acts as a unix tool.
 
 We will read data from `stdin`, convert it to our custom JSON model and push it through to `stdout`, completing the cycle.
 
-_This is a beginner to intermediate course for both Go and Unix, some things will be explained, but if you're unsure
-you should be able to autonomously search for the right information._
+>This is a beginner to intermediate course for both Go and Unix, some things will be explained, but if you're unsure
+you should be able to autonomously search for the right information.
 
 ## Background
 
@@ -31,6 +31,10 @@ A lot of these small, do one thing well, tools are written in C, but there's no 
 ## Steps
 
 This course is divided into steps, navigate to `step1` and make sure to read the individual READMEs.
+
+> If you're really new to Go, you can check out `step0`, it will explain how to create an executable Go
+> program along with how importing packages works. Make sure you have also done the [Go tour](https://go.dev/tour/)
+> so you know the basic Go syntax.
 
 The README explains what needs to be done and what the exercise is, it also contains background information.
 If something is not covered don't be afraid to search for more information on Wikipedia, pkg.go.dev or StackOverflow.
