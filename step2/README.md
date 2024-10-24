@@ -32,7 +32,7 @@ type Output struct {
 ## Exercise
 
 1. Copy your `main.go` from `step1`
-2. Create your custom JSON model
+2. Create your custom JSON model (_note: you can't call it `Output`, that's already used in `ref.go`_)
 3. Remove the `fmt.Printf` and replace it with a `json.Encoder` (see `json.NewEncoder()`)
 4. Call `Encode()` on your encoder with your custom model as input (make sure to fill it with data)
 

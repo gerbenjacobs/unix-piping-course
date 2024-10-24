@@ -23,7 +23,7 @@ since we are giving it the `os.Stdin` file descriptor, it will read whatever we 
 
 ## Exercise
 
-1. Create a main.go using `io.ReadAll` and `os.Stdin`
+1. Create a main.go using `io.ReadAll()` and `os.Stdin`
 2. Use `fmt.Printf` to print whatever you received 
 3. (Optional) As an added bonus, output the length of the string too
 
